@@ -16,7 +16,7 @@ $path= "x:\vms"
 
 install-module -Name convert-windowsimage -AllowClobber
 
-Convert-WindowsImage -SourcePath f:\sources\install.wim -VhdPath $path -SizeBytes 70GB -VhdFormat VHDX -VhdType Dynamic -DiskLayout UEFI -RemoteDesktopEnable -Edition 2
+Convert-WindowsImage -SourcePath f:\sources\install.wim -VhdPath $path -SizeBytes 70GB -VhdFormat VHDX -VhdType Dynamic -DiskLayout UEFI -RemoteDesktopEnable -Edition 1
 
 
 New-VMSwitch -AllowManagementOS $true -NetAdapterName "ethernet" -EnableEmbeddedTeaming $true -Name SETSW
