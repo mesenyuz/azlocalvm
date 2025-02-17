@@ -2,8 +2,8 @@
 
 #1.	You need to download Azure Local ISO
 #2.	Open ISO on hyper-V host and note the drive letter, change drive letter accordingly on $isopath parameter
-#3.	Change the $path parameter accordingly.
-#4.	Change the “ethernet” name on new-vmswitch accordingly
+#3.	Change the drive letter on $path parameter accordingly.
+#4.	Change the “ethernet” name on new-vmswitch accordingly. 
 
 
 
